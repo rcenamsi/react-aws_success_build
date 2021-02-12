@@ -15,7 +15,7 @@ class Dashboard extends Component {
                             <Card.Body>
                                 <Card.Title>Card Title</Card.Title>
                                 <Card.Subtitle>Total Records:</Card.Subtitle>
-                                <Card.Text>Some Quick Texts</Card.Text>
+                                <Card.Text>Some Quick Text</Card.Text>
                                 <Card.Link href={'#'}>Click here</Card.Link>
                             </Card.Body>
                         </Card>
