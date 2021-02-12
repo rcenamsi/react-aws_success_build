@@ -4,6 +4,7 @@ import Layout from "./hoc/layout/Layout";
 import {Route, Switch, Redirect} from "react-router-dom";
 import Dashboard from "./containers/dashboard/Dashboard";
 import Todo from "./containers/todo/Todo";
+import { withAuthenticator } from '@aws-amplify/ui-react';
 
 class App extends Component {
     render() {
@@ -18,4 +19,4 @@ class App extends Component {
     }
 }
 
-export default App;
+export default withAuthenticator(App);
