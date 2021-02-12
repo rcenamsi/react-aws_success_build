@@ -23,6 +23,7 @@ yarn-debug.log*
 yarn-error.log*
 
 .idea
+package-lock.json
 
 #amplify
 amplify/\#current-cloud-backend
@@ -35,7 +36,6 @@ amplify/backend/.temp
 build/
 dist/
 node_modules/
-aws-exports.js
 awsconfiguration.json
 amplifyconfiguration.json
 amplify-build-config.json
